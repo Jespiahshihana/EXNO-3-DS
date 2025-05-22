@@ -1,15 +1,12 @@
 ## EXNO-3-DS
-
 # AIM:
 To read the given data and perform Feature Encoding and Transformation process and save the data to a file.
-
 # ALGORITHM:
 STEP 1:Read the given Data.
 STEP 2:Clean the Data Set using Data Cleaning Process.
 STEP 3:Apply Feature Encoding for the feature in the data set.
 STEP 4:Apply Feature Transformation for the feature in the data set.
 STEP 5:Save the data to the file.
-
 # FEATURE ENCODING:
 1. Ordinal Encoding
 An ordinal encoding involves mapping each unique label to an integer value. This type of encoding is really only appropriate if there is a known relationship between the categories. This relationship does exist for some of the variables in our dataset, and ideally, this should be harnessed when preparing the data.
@@ -19,7 +16,6 @@ Label encoding is a simple and straight forward approach. This converts each val
 Binary encoding converts a category into binary digits. Each binary digit creates one feature column. If there are n unique categories, then binary encoding results in the only log(base 2)ⁿ features.
 4. One Hot Encoding
 We use this categorical data encoding technique when the features are nominal(do not have any order). In one hot encoding, for each level of a categorical feature, we create a new variable. Each category is mapped with a binary variable containing either 0 or 1. Here, 0 represents the absence, and 1 represents the presence of that category.
-
 # Methods Used for Data Transformation:
   # 1. FUNCTION TRANSFORMATION
 • Log Transformation
@@ -29,7 +25,6 @@ We use this categorical data encoding technique when the features are nominal(do
   # 2. POWER TRANSFORMATION
 • Boxcox method
 • Yeojohnson method
-
 # CODING AND OUTPUT:
 ![image](https://github.com/user-attachments/assets/be42bbcc-b3fc-40a9-bd88-86de12151ec2)
 ![image](https://github.com/user-attachments/assets/248af0b7-2fab-47f0-86d0-5f0eaa826051)
@@ -58,8 +53,6 @@ We use this categorical data encoding technique when the features are nominal(do
 ![image](https://github.com/user-attachments/assets/961f424c-573b-46bb-a8a0-5dbede038682)
 ![image](https://github.com/user-attachments/assets/b289ce53-6901-4306-8fea-93ab533bc9fa)
 ![image](https://github.com/user-attachments/assets/5788497e-998f-456e-bf42-46cd86d69c15)
-
-
 # RESULT:
 Thus the given data, Feature Encoding, Transformation process and save the data to a file
 was performed successfully.      
